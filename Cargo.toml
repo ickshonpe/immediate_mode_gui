@@ -1,0 +1,6 @@
+[package]
+name = "immediate_mode_ui"
+version = "0.1.0"
+authors = ["David Curthoys <david.curthoys@googlemail.com>"]
+
+[dependencies]
