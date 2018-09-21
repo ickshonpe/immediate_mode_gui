@@ -86,6 +86,10 @@ pub trait Ctx {
     }
 }
 
+pub trait Renderer {
+    fn draw_rect(&mut self, rect: Rect, color: Color);
+}
+
 pub fn button(ctx: &mut Ctx, id: Id, rect: Rect) -> bool {
     if rect.contains(ctx.mouse_pos()) {
         ctx.set_focus(id)
