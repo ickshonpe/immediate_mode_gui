@@ -1,6 +1,7 @@
 [package]
-name = "immediate_mode_gui"
+name = "imm_gui"
 version = "0.1.0"
 authors = ["David Curthoys <david.curthoys@googlemail.com>"]
 
 [dependencies]
+nalgebra-glm = "0.1"
